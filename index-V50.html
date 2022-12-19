@@ -1,13 +1,13 @@
 <head>
-    <title>EO Volume Chart V100</title>
+    <title>EO Volume Chart V50</title>
 </head>
 
 <body>
     <div id="chartContainer" style="height:100%; width: 100%; border:0px; margin:0px;" ></div>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <script>
-        var symbol = "R_100";
-        var decimals = 2;
+        var symbol = "R_50";
+        var decimals = 4;
         var ws = new WebSocket('wss://ws.binaryws.com/websockets/v3?app_id=1089');
 
         ws.onopen = function (evt) {
